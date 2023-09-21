@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/dark.jpg";
+import heroImg from "../../assets/img/hero/meme-pfp-13.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
@@ -10,8 +10,8 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "tyler marks",
   heroDesignation: "software engineer",
-  heroDescriptions: `I'm a Fort Myers based full stack web developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
+  heroDescriptions: `I'm a Cape Coral based full stack web developer focused on
+  crafting clean & user‑friendly web applications, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
   heroBtn: "more about me",

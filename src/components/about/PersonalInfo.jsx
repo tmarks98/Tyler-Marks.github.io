@@ -6,7 +6,7 @@ const personalInfoContent = [
   { meta: "Age", metaInfo: "25 Years" },
   { meta: "Nationality", metaInfo: "American" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Tunis" },
+  { meta: "Location", metaInfo: "Cape Coral, Florida" },
   { meta: "phone", metaInfo: "+14345695300" },
   { meta: "Email", metaInfo: "tyleramarks@gmail.com" },
   { meta: "Github username", metaInfo: "tmarks98" },
