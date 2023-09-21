@@ -1,12 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const Address = () => {
+function Address() {
   return (
     <>
       <p className="open-sans-font custom-span-contact position-relative">
-        <i className="fa fa-map position-absolute"></i>
-        <span className="d-block">Address Point</span>123 Stree New York City ,
-        United States Of America 750065.
+        <i className="fa fa-user-circle position-absolute"></i>
+        <span className="d-block">Discord</span>
       </p>
       {/* End .custom-span-contact */}
 

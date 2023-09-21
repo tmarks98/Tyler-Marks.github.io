@@ -2,25 +2,22 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2021 - 2022",
+    position: "Cook",
+    compnayName: "Lobster Lady",
+    details: `Cooked various types of seafood from steaming lobsters and crabs to searing steak and fresh caught tuna`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2017 - 2021",
+    position: "Tile setter & store manager",
+    compnayName: "Walton Tile",
+    details: `Managed multiple online accounts including the intuit quickbooks account, business email, as well as the facebook and business website. `,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2018 - 2019",
+    position: "Irrigation specialists",
+    compnayName: "Blue Ridge Irrigation",
+    details: `Drove out to homes or places of business to upkeep and do monthly checkups on already installed irrigation. Also installed new irrigation at homes, baseball fields, and private schools`,
   },
 ];
 
