@@ -7,12 +7,6 @@ const educationContent = [
     institute: "App Academy",
     details: `Through a comprehensive fullstack curriculum, they train you to build web applications with Flask, JavaScript, React/Redux, SQL, and HTML/CSS. To help you tackle interviews after you graduate, data structures and algorithms are also taught throughout the course.`,
   },
-  {
-    year: "2012-2016",
-    degree: "Advanced High School Diploma",
-    institute: "Fluvanna High",
-    details: `Fluvanna County High School`,
-  },
 ];
 
 const Education = () => {

@@ -11,7 +11,7 @@ const experienceContent = [
     year: "2017 - 2021",
     position: "Tile setter & store manager",
     compnayName: "Walton Tile",
-    details: `Managed multiple online accounts including the intuit quickbooks account, business email, as well as the facebook and business website. `,
+    details: `Started off as an apprentice tile setter, ended up managing multiple online accounts including the intuit quickbooks account, business email, as well as the facebook and business website. `,
   },
   {
     year: "2018 - 2019",
