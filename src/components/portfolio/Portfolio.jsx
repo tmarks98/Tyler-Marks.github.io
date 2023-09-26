@@ -17,11 +17,11 @@ const Portfolio = () => {
       <div className="portfolio-main">
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
-            <Tab>ALL</Tab>
+            {/* <Tab>ALL</Tab>
             <Tab>LOGO</Tab>
             <Tab>VIDEO</Tab>
             <Tab>GRAPHIC DESIGN</Tab>
-            <Tab>MOCKUP</Tab>
+            <Tab>MOCKUP</Tab> */}
           </TabList>
 
           <div className="container">
@@ -51,7 +51,7 @@ const Portfolio = () => {
               </div>
             </TabPanel>
 
-            <TabPanel>
+            {/* <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) => item.tag.includes("logo")).map(
                   (item) => {
@@ -71,7 +71,7 @@ const Portfolio = () => {
                             <span className="conent-title">{type}</span>
                           </h3>
                         </div>
-                        {/* {getModal && <Modal props={modalId} />} */}
+                        {getModal && <Modal props={modalId} />}
                       </div>
                     );
                   }
@@ -99,7 +99,7 @@ const Portfolio = () => {
                             <span className="conent-title">{type}</span>
                           </h3>
                         </div>
-                        {/* {getModal && <Modal props={modalId} />} */}
+                        {getModal && <Modal props={modalId} />}
                       </div>
                     );
                   }
@@ -128,7 +128,7 @@ const Portfolio = () => {
                           <span className="conent-title">{type}</span>
                         </h3>
                       </div>
-                      {/* {getModal && <Modal props={modalId} />} */}
+                      {getModal && <Modal props={modalId} />}
                     </div>
                   );
                 })}
@@ -156,12 +156,12 @@ const Portfolio = () => {
                           <span className="conent-title">{type}</span>
                         </h3>
                       </div>
-                      {/* {getModal && <Modal props={modalId} />} */}
+                      {getModal && <Modal props={modalId} />}
                     </div>
                   );
                 })}
               </div>
-            </TabPanel>
+            </TabPanel>  */}
           </div>
         </Tabs>
       </div>

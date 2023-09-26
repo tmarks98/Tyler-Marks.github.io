@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../../assets/img/portfolio/project-1.jpg";
-import img2 from "../../../assets/img/portfolio/project-2.jpg";
-import portfolioVideo from "../../../assets/img/portfolio/video.mp4";
+import img1 from "../../../assets/img/portfolio/project-1.png";
+import img2 from "../../../assets/img/portfolio/project-2.png";
+import img3 from "../../../assets/img/portfolio/project-3.png";
 import CloseImg from "../../../assets/img/cancel.svg";
 import PortfolioData from "../portfolioData";
 import Slider from "react-slick";
@@ -140,14 +140,9 @@ const Modal = ({ modalId, setGetModal }) => {
                     );
                   })}
                 </div>
-                <figure className="modal__img videocontainer">
-                  <iframe
-                    src="https://www.youtube.com/embed/7e90gBu4pas"
-                    title="YouTube video player"
-                    className="youtube-video"
-                    allowFullScreen
-                  ></iframe>
-                </figure>
+                <div>
+                      <img src={item.image} alt="portfolio project demo" />
+                    </div>
 
                 <button
                   className="close-modal"
@@ -221,10 +216,10 @@ const Modal = ({ modalId, setGetModal }) => {
                       <img src={item.image} alt="portfolio project demo" />
                     </div>
                     <div>
-                      <img src={img1} alt="portfolio project demo" />
+                      <img src={img3} alt="portfolio project demo" />
                     </div>
                     <div>
-                      <img src={img2} alt="portfolio project demo" />
+                      <img src={img3} alt="portfolio project demo" />
                     </div>
                   </Slider>
                 </figure>
@@ -303,7 +298,7 @@ const Modal = ({ modalId, setGetModal }) => {
                     controls
                     poster={item.image}
                   >
-                    <source src={portfolioVideo} type="video/mp4" />
+                    <source src={img3} type="video/mp4" />
                     {/* <source src="img/" type="video/mp4" /> */}
                   </video>
                 </figure>
