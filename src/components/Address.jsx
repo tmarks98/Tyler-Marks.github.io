@@ -8,7 +8,7 @@ function Address() {
         <span className="d-block">Discord Username</span>
         <p>tylermarks</p>
       </p>
-      {/* End .custom-span-contact */}
+      {/* End .custom-span-contact */ }
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-envelope-open position-absolute"></i>
